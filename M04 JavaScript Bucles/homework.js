@@ -1,17 +1,23 @@
 /*⚠️ NO MODIFIQUES EL NOMBRE DE LAS DECLARACIONES ⚠️*/
 
-function obtenerMayor(x, y) {
+function obtenerMayor(x, y) 
    // "x" e "y" son números enteros.
    // Retornar el número más grande.
    // Si son iguales, retornar cualquiera de los dos.
    // Tu código:
-}
+ 
+
 
 function mayoriaDeEdad(edad) {
    // Determinar si la persona puede ingresar al evento según su edad.
    // Si tiene 18 años ó más debe retornar el string: "Allowed".
    // Caso contrario: "Not allowed".
    // Tu código:
+   function mayoriaDeEdad (edad){
+      if (edad >=18) console.log ("Allowed");
+      else ("Not allowed")
+   }
+
 }
 
 function conection(status) {
@@ -21,6 +27,11 @@ function conection(status) {
    // De lo contrario, presumimos que el usuario está "Offline".
    // Retornar el estado de conexión del usuario.
    // Tu código:
+   function conection (status){
+      if (status===1) {console.log("online")}
+      else if (status===2) {console.log("Away")}
+      else console.log("Offline");
+   }
 }
 
 function saludo(idioma) {
@@ -30,6 +41,12 @@ function saludo(idioma) {
    // Si "idioma" es "ingles", devuelve "Hello!".
    // Si "idioma" no es ninguno de los anteriores o es `undefined` devuelve "Hola!".
    // Tu código:
+   function saludo (idioma){
+      if (idioma ==="aleman") console.log("Guten tag!");
+      else if(idioma ==="mandarin") console.log ("ni hao!");
+      else if(idioma ==="ingles") console.log ("hello!");
+      else console.log("hola!");
+   }
 }
 
 function colors(color) {
@@ -47,12 +64,17 @@ function esDiezOCinco(num) {
    // Retornar true si "num" es 10 o 5.
    // De lo contrario, retornar false.
    // Tu código:
+   function esDiezOCinco (num){
+      if (num ===5 || num ===10) return (true)
+      else return (false)
+   }
 }
 
 function estaEnRango(num) {
    // Retornar true si "num" es menor que 50 y mayor que 20.
    // De lo contrario, retornar false.
    // Tu código:
+
 }
 
 function esEntero(num) {
@@ -95,6 +117,9 @@ function esVerdadero(valor) {
    // Si "valor" es verdadero retornar "Soy verdadero".
    // Caso contrario, retornar "Soy falso".
    // Tu código:
+  function esVerdadero(valor){
+
+  }
 }
 
 function tieneTresDigitos(num) {
