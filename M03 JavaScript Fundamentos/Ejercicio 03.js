@@ -7,8 +7,11 @@ function sonIguales(x, y) {
 }
 
 function tienenMismaLongitud(str1, str2) {
- if (str1.length=== str2.length) return true
- return false;
+ if (str1.length === str2.length  ) {
+  return true;
+ } else {
+  return false;
+ }
 }
 
 function menosQueNoventa(num) {

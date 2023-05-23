@@ -6,8 +6,9 @@ function devolverString(string) {
 }
 
 // ⛔️ "X" e "Y" son números.
+//* EN ESTO SOLO HAY QUE AGREGAR EL SIMBOLO
 
-function suma(x,y) {
+function suma(x,y) { 
   return x+y;
 }
 

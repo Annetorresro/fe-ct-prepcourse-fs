@@ -4,12 +4,12 @@
 // ⛔️ Recuerda que debes utilizar el objeto global "Math".
 
 function elevarAlCuadrado(num) {
-    return Math.pow (num, 2);
+    return Math.pow (num, 2); //se coloca el numero recibido por parametro , y el numero al cual se va a elevar.
    
 }
 
 function elevarAlCubo(num) {
-  return Math.pow (num, 3);
+  return Math.pow (num,3);
  
 }
 
@@ -20,7 +20,7 @@ function elevar(num, exponent) {
 }
 
 function redondearNumero(num) {
- return Math.round (num)
+ return Math.round(num)
  
 }
 
